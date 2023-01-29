@@ -7,7 +7,7 @@ import router from "express/lib/router";
 
 router.get("/", async (req:any, res:any) => {
   try {
-    const Users = await User.find();
+    const Users: any = await User.find();
     console.log(Users);
     res.send(Users);
   } catch (e) {

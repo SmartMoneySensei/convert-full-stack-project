@@ -1,0 +1,19 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+  }
+
+  .bug-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
